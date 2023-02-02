@@ -9,9 +9,9 @@ puts "----------"
 @store1 = Store.find_by(id: 1)
 @store2 = Store.find_by(id: 2)
 
-puts @store1
+pp @store1
 
 @store1.name = "Friends"
 @store1.save
 
-puts @store1
+pp @store1
