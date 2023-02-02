@@ -7,8 +7,6 @@ require_relative './exercise_4'
 puts "Exercise 5"
 puts "----------"
 
-# Your code goes here ...
-
 @sum = Store.sum(:annual_revenue)
 
 pp @sum
